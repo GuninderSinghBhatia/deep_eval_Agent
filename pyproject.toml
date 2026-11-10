@@ -7,7 +7,12 @@ authors = [
     { name = "GuninderSinghBhatia", email = "guninder.growth@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "deepeval>=4.3.3",
+    "langchain>=1.4.9",
+    "langchain-groq>=1.1.3",
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 deep-eval-agent = "deep_eval_agent:main"
